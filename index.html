@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        height: 50px;
+        width: 50px;
+        background-color: chartreuse;
+        margin-bottom: 10px;
+
+        text-align: center;
+        align-content: center;
+        font-size: 45px;
+        font-family: monospace;
+      }
+      .bg {
+        /* width: max-content; */
+        /* background-color: black; */
+        display: flex;
+        /* grid-template-columns: repeat(3,1fr); */
+        gap: 10px;
+
+        margin-left: 35vw;
+        /* margin-right: auto; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg">
+      <div class="div">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+      </div>
+      <div class="div">
+        <div class="box" id="box4"></div>
+        <div class="box" id="box5"></div>
+        <div class="box" id="box6"></div>
+      </div>
+      <div class="div">
+        <div class="box" id="box7"></div>
+        <div class="box" id="box8"></div>
+        <div class="box" id="box9"></div>
+      </div>
+    </div>
+
+    <script>
+
+      function black(){
+        document.body.style.background="black";
+      }
+
+      let box1 = document.getElementById("box1");
+      let box2 = document.getElementById("box2");
+      let box3 = document.getElementById("box3");
+
+      let box4 = document.getElementById("box4");
+      let box5 = document.getElementById("box5");
+      let box6 = document.getElementById("box6");
+
+      let box7 = document.getElementById("box7");
+      let box8 = document.getElementById("box8");
+      let box9 = document.getElementById("box9");
+
+      box1.addEventListener("click", () => {
+        box1.innerText = "X";
+      });
+      box1.addEventListener("contextmenu", () => {
+        box1.innerText = "O";
+      });
+
+      box2.addEventListener("click", () => {
+        box2.innerText = "X";
+      });
+      box2.addEventListener("contextmenu", () => {
+        box2.innerText = "O";
+      });
+
+
+
+      box3.addEventListener("click", () => {
+        box3.innerText = "X";
+      });
+      box3.addEventListener("contextmenu", () => {
+        box3.innerText = "O";
+      });
+
+      box4.addEventListener("click", () => {
+        box4.innerText = "X";
+      });
+      box4.addEventListener("contextmenu", () => {
+        box4.innerText = "O";
+      });
+
+      box5.addEventListener("click", () => {
+        box5.innerText = "X";
+      });
+      box5.addEventListener("contextmenu", () => {
+        box5.innerText = "O";
+      });
+
+      box6.addEventListener("click", () => {
+        box6.innerText = "X";
+      });
+      box6.addEventListener("contextmenu", () => {
+        box6.innerText = "O";
+      });
+
+      box7.addEventListener("click", () => {
+        box7.innerText = "X";
+      });
+      box7.addEventListener("contextmenu", () => {
+        box7.innerText = "O";
+      });
+
+      box8.addEventListener("click", () => {
+        box8.innerText = "X";
+      });
+      box8.addEventListener("contextmenu", () => {
+        box8.innerText = "O";
+      });
+
+      box9.addEventListener("click", () => {
+        box9.innerText = "X";
+      });
+      box9.addEventListener("contextmenu", () => {
+        box9.innerText = "O";
+      });
+    </script>
+  </body>
+</html>
